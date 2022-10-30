@@ -1,0 +1,27 @@
+.trantable table tr th, .trantable table tr td{
+    border: 1px solid rgba(195, 188, 188, 0.438);
+    text-align: center;
+    color: gray;
+    font-size: larger;
+}
+.btn-download{
+    position: relative;
+    left: 85%;
+    width: 15%;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+.trantable{
+    min-height: 500px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+table{
+    margin-top: 15px;
+}
+

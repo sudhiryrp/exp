@@ -1,0 +1,76 @@
+.container_tour{
+    min-height:100vh;
+    padding: 20px;
+}
+.menu_tour{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.input_tour_sel{
+    width:15%;
+    margin: 10px 0;
+    display: flex;
+    min-width: 80px;
+    justify-content: center;
+  
+   
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.des_tour{
+
+    text-transform: uppercase;
+    
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.tour_text{
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    color: rgb(115, 36, 161);
+    height: fit-content;
+    font-size: larger;
+}
+.tour_sel{
+    width:100%;
+}
+.editor,.Editor{
+    margin: 20px;
+}
+.op_tr:hover,.op_tr:active,.op_tr:focus{
+    background-color:rgb(115, 36, 161) !important;
+    color: aliceblue !important;
+
+}
+
+.op_tr{
+    color: rgb(115, 36, 161) !important;
+}
+
+.Editor{
+    margin-top: 5%;
+}
+.in_tr{
+    color: rgb(115, 36, 161) !important;
+    margin: 10px 0;
+    
+}
+input#filled-basic {
+    color: rgb(115, 36, 161) !important;
+}
+.tb_body_tr{
+    display: flex;
+    justify-content: center;
+}

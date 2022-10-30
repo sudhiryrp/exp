@@ -1,0 +1,63 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.in_hd {
+  display: flex;
+  justify-content: space-between;
+}
+.in-dy-tb {
+  border: none;
+  outline: none;
+  margin: 5px 0;
+}
+.tour_text {
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
+  color: rgb(115, 36, 161);
+  height: fit-content;
+  font-size: larger;
+}
+.container_b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+
+  align-items: center;
+  width: 100%;
+}
+.pickdrop {
+  display: flex;
+  
+  justify-content: space-around;
+  margin: 20px;
+  width: 100%;
+}
+.heading_b {
+  margin: 20px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.tb_bb td, .tb_bb th{
+  border: 1px solid rgb(115, 36, 161);;
+
+  text-align: center;
+}
+.cover_bb {
+  display: flex;
+  border: 1px solid rgb(115, 36, 161);
+  border-bottom: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.un_bt_l {
+  width: 60%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.r_bb {
+  position: relative;
+  left: 10%;
+}
